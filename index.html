@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Static webpage</title>
+</head>
+<body>
+    <header class="Black">
+    <h1>Anurag University</h1>
+    <nav><ul>
+        <li><a href="#Home" class="Space" >Home</a></li>
+        <li><a href="#Home" class="Space">About</a></li>
+        <li><a href="#Home" class="Space">Registration</a></li>
+        <li><a href="#Home" class="Space">Contact</a></li>
+    </ul></nav></header>
+    <form action="https://httpbin.org/get" method="get">
+        <div class="k22">
+        <h2>Student Registration form</h2>
+       <p><label for="Name">First Name</label>
+        <input type="text" name="Name" id="Name" autofocus autocomplete="on"></p> 
+        <br>
+        <p><label for="Name">Last Name</label>
+            <input type="text" name="Name" id="Name" autofocus autocomplete="on"></p>
+        <br>
+            <p><label for="Name">User Name</label>
+            <input type="text" name="Name" id="Name" autofocus autocomplete="on"></p>
+            <br>
+            <p><label for="Password">Password</label>
+                <input type="text" name="Password" id="Password" autofocus autocomplete="on" required></p>
+                <br>
+                <p><label for="Pass">Confirm Password</label>
+                   <input type="text" name="Pass" id="Pass" autofocus autocomplete="on" required ></p>
+                   <br>
+                   <p> <label for="DOB">DOB</label>
+                   <input type="text" name="DOB" id="DOB" placeholder="dd-mm-yyyy"></p>
+                   <br>
+                   <p><label for="Country">Select Country</label>
+                   <select name="Country" id="Country" >
+                    <option value="India">India</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="China">China</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                   </select></p>
+                   <br>
+                   <br>
+                   <p><label for="Adress">Address</label>
+                   <textarea name="Adress" id="Adress" cols="20" rows="5"></textarea></p>
+                   <br><br>
+                   <p><button type="submit">Submit</button>
+                   <button type="reset">Reset</button></p>
+                </div>
+                </form>
+</body>
+</html>

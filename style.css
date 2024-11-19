@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(../OIP.jpeg);
+    background-size:150%;
+    
+}
+header{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 4em;
+    color: white;
+    display:inline-block;
+
+}
+h1{
+    float: left;
+    padding: 30px;
+}
+ul{
+ display: flex;
+ justify-content: space-evenly;
+ padding-top:40px;
+ padding-left: 40px;
+ list-style: none;
+ text-transform: uppercase;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover,a:active{
+   color: brown;
+}
+.k22{
+    text-align: center;
+    background-color: rgb(179, 108, 185);
+    width: 500px;
+    height:600px;
+    margin-top: 60px;
+    margin-left: 450px;
+    border-style: solid;
+    border-radius: 2em;
+}
+h2{
+    padding: 2em;
+}
+label{
+    font-weight: bold;
+    width: 240px;
+    display: inline-block;
+}
+input{
+    border: solid;
+    border-color: brown;
+}
+select{
+    width: 180px;
+    display: inline-block;
+}
+
+textarea{
+    border: solid;
+    border-color: brown;
+}
+button{
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.747);
+    padding:0.4em;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover{
+    color: yellow;
+}
